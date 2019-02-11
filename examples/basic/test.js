@@ -9,7 +9,7 @@ const page = new Page();
 // Tests
 test('Text typing basics', async t => {
     await t
-        .typeText(page.nameInput, '2373').typeText(page.nameKeyboard, 'your_user_id').typeText(page.pwKeyboard, 'your_password')
+        .typeText(page.nameInput, '2373').typeText(page.nameKeyboard, '29').typeText(page.pwKeyboard, 'hayag123')
         .click(page.submitButton)
         // await t
         .click(page.inButton)
